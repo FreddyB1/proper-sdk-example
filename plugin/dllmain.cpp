@@ -3,7 +3,7 @@
 struct ExamplePlugin final: public PluginInterface
 {
 	void OnModuleInit() {
-		natives().print("OnModuleInit\n");
+		natives().print("OnModuleInit");
 	}
 };
 
